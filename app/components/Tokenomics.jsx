@@ -18,7 +18,7 @@ const Tokenomics = () => {
         <span className="text-primary">TOKENOMICS</span>
       </h3> */}
       <h3 className="text-center text-3xl font-semibold mb-5">
-              <span className="text-primary text-[#3b3663]">Tokenomics</span>
+              <span className=" text-[#3b3663]">Tokenomics</span>
             </h3>
     <div>
 
