@@ -6,8 +6,9 @@ import Fade from "react-reveal/Fade";
 
 const Hero = () => {
   return (
-    <section className="mb-20 hero-bg lg:h-[75vh]">
-      <div className="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
+    <section className="mb-20 hero-bg ">
+      {/* <div className="px-6 py-12 md:px-12 text-gray-800 text-center bg-[hsla(0,0%,0%,0.75)] bg-fixed lg:text-left"> */}
+      <div className="px-6 py-12 md:px-12 text-gray-800 bg-colorr text-center lg:text-left">
         <div className="container mx-auto xl:px-32 ">
           <div className="grid lg:grid-cols-2 gap-12 flex items-center lg:pt-20">
 

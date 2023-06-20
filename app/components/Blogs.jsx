@@ -14,7 +14,7 @@ const Blogs = () => {
         }
       </style> */}
       <h3 className="text-center text-3xl font-semibold mb-5">
-        <span className="text-primary">Latest News</span>
+        <span className=" text-[#3b3663]">Latest News</span>
       </h3>
           {/* <h2 className="mb-12 text-center text-3xl font-bold">Latest News</h2> */}
 

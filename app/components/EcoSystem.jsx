@@ -15,9 +15,15 @@ const EcoSystem = () => {
       <div className="container my-24 mx-auto md:px-6">
         <section className="mb-32">
           <h3 className="text-center text-3xl font-semibold mb-5">
-            <span className="text-primary">The Ecosystem</span>
+            <span className="text-primary text-[#3b3663]">The Ecosystem</span>
           </h3>
+          <div className="project-goals">
+        <p className="p-tag">
+        The Ecosystem is built on four major cornerstone – Tajiri is Built for Impact. Driven by Technology. Built by Africa for African.
+        </p>
+      </div>
           {/* <h2 className="mb-12 text-center text-3xl font-bold">Latest News</h2> */}
+          {/* The Ecosystem is built on four major cornerstone – Tajiri is Built for Impact. Driven by Technology. Built by Africa for African. */}
 
           <div className="grid gap-6 lg:grid-cols-3">
             <div
@@ -34,11 +40,11 @@ const EcoSystem = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h5 className="mb-3 text-lg font-bold">AfriPayX</h5>
-                      <p>
+                      <p className="mb-8">
                         Blockchain Ready Financial Backbone System
                       </p>
                       <a
-                        className="inline-block px-7 py-3 mt-5 mr-2 bg-[#008989] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
+                        className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#ff0000] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         href="#"
@@ -69,9 +75,9 @@ const EcoSystem = () => {
                       <h2 className="mb-3 text-lg font-bold">
                         Tajify - Tajiri Nation
                       </h2>
-                      <p>Creative Economy Portal – Optimized for Africa</p>
+                      <p className="mb-8">Creative Economy Portal – Optimized for Africa</p>
                       <a
-                        className="inline-block px-7 py-3 mt-5 mr-2 bg-[#008989] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
+                        className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#116524] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         href="https://www.youtube.com/watch?v=8E4sDFNqkUk"
@@ -100,9 +106,9 @@ const EcoSystem = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h2 className="mb-3 text-lg font-bold">BossKard</h2>
-                      <p>Connecting Entrepreneurs and SMEs across Africa</p>
+                      <p className="mb-8 font-light">Connecting Entrepreneurs and SMEs across Africa</p>
                       <a
-                        className="inline-block px-7 py-3 mt-5 mr-2 bg-[#008989] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
+                        className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#116524] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
                         href="https://www.youtube.com/watch?v=VyAhBO0KdCY"

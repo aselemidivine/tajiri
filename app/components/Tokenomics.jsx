@@ -14,9 +14,12 @@ const Tokenomics = () => {
     <Container maxW={"7xl"}>
         <section className="mb-32">
 
-        <h3 className="text-center text-3xl font-semibold mb-5">
+        {/* <h3 className="text-center text-3xl font-semibold mb-5">
         <span className="text-primary">TOKENOMICS</span>
-      </h3>
+      </h3> */}
+      <h3 className="text-center text-3xl font-semibold mb-5">
+              <span className="text-primary text-[#3b3663]">Tokenomics</span>
+            </h3>
     <div>
 
     <Fade left delay={300} duration={1700}>
@@ -24,7 +27,7 @@ const Tokenomics = () => {
           <ExploreCard
             icon={competitor}
             text="Staking & Yield Farming"
-            className="cursor-pointer"
+            className="token-img"
           />
           <ExploreCard icon={seo} text="Bill Payment & Invoice Settlement" />
           <ExploreCard icon={socialMedia} text="Up to 20% on Transaction FEE" />

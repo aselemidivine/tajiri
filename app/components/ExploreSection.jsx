@@ -14,7 +14,7 @@ const ExploreSection = () => {
   return (
     <Container maxW={"7xl"}>
       <h3 className="text-center text-3xl font-semibold mb-5">
-        <span className="text-primary">Project Goals</span>
+        <span className="text-primary text-[#3b3663]">Project Goals</span>
       </h3>
       <div className="project-goals">
         <p className="p-tag">

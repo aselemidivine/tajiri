@@ -39,14 +39,17 @@ const Partners = () => {
   return (
     <div>
 
-        <section className="mb-26">
+        <section className="mb-32">
 
       <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center text-center space-y-4">
-            <h2 className="text-3xl lg:text-4xl font-semibold leading-9 md:leading-7 lg:leading-9 text-primary">
+            {/* <h3 className="text-3xl lg:text-4xl font-semibold leading-9 md:leading-7 lg:leading-9 text-primary">
               In The News
-            </h2>
+            </h3> */}
+            <h3 className="text-center text-3xl font-semibold mb-5">
+              <span className=" text-[#3b3663]">In The News</span>
+            </h3>
           </div>
 
     <Container maxW={"7xl"}>

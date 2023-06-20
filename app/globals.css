@@ -23,6 +23,11 @@
   background: #7CFFCB; 
 }
 
+.bg-colorr {
+  background-color: hsla(0, 0%, 0%, 0.75);
+background-attachment: fixed;
+
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -189,6 +194,10 @@
   background: #008989;
 }
 
+.inline-blockk {
+  margin-top: 20px;
+}
+
 .inline {
   background: #985e07;
 }
@@ -257,6 +266,31 @@
   color: #fff;
   padding: 60px 20px;
 }
+
+.token-img img {
+ width: 157px;
+ height: 57px;
+}
+
+/* To-top */
+/* .scroll-to-top-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.scroll-to-top-icon {
+  font-size: 20px;
+} */
+
+
 
 
 
