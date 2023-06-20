@@ -1,12 +1,11 @@
 
 
 import Image from "next/image";
-// import CtaSection from './components/CtaSection'
+import CtaSection from './components/CtaSection'
 import ExploreSection from "./components/ExploreSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-// import Newsletter from './components/Newsletter'
 import Partners from "./components/Partners";
 import EcoSystem from "./components/EcoSystem";
 import Blogs from "./components/Blogs";
@@ -28,13 +27,13 @@ export default function Home() {
       <ExploreSection />
       <EcoSystem />
       <AllianceAndCollaborators />
-      <Partners />
       <Tokenomics />
       <UtilitiesPlatform />
       <Wallet />
+      <CtaSection/>
       {/* <ToTop /> */}
       <Blogs />
-      {/* <CtaSection/> */}
+      <Partners />
       <ContactUs />
       <Footer />
       

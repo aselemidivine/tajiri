@@ -9,7 +9,7 @@ const ExploreCard = ({ text, icon}) => {
              <Image src={icon} alt="Icon" className="w-10 h-10" />
             </div>
             
-            <p className="flex justify-center mb-2 ">{text}</p>
+            <p className="flex justify-center mb-2 text-sm ">{text}</p>
         </div>
     </div>
   )

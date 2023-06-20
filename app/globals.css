@@ -285,6 +285,12 @@
   height: 78px;
   border-radius: 7px;
   max-width: 770px;
+
+}
+.collaborator {
+  height: 78px;
+  border-radius: 7px;
+  max-width: 1204px;
 }
 
 .collaborators-img {
@@ -293,6 +299,22 @@
   padding: 7px;
   width: 176px;
 }
+
+.collaborator-img {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 7px;
+  height: 85px;
+  width: 197px;
+}
+
+/* .diff {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 7px;
+  height: 74px;
+  width: 263px;
+} */
 
 .chakraa {
   display: flex;
