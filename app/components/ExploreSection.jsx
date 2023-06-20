@@ -27,7 +27,7 @@ const ExploreSection = () => {
           <ExploreCard
             icon={NoPoverty}
             text="No Poverty"
-            className="cursor-pointer"
+            className="cursor-pointer text-primary"
           />
           <ExploreCard icon={NoPoverty} text="Quality Education" />
           <ExploreCard icon={Partnership} text="Partnerships For The Goals" />
