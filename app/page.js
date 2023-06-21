@@ -1,12 +1,12 @@
 
 
 import Image from "next/image";
-import CtaSection from './components/CtaSection'
+// import About from './components/About'
 import ExploreSection from "./components/ExploreSection";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import Partners from "./components/Partners";
+// import Partners from "./components/News";
 import EcoSystem from "./components/EcoSystem";
 import Blogs from "./components/Blogs";
 import ContactUs from "./components/ContactUs";
@@ -14,6 +14,8 @@ import Tokenomics from "./components/Tokenomics";
 import UtilitiesPlatform from "./components/UtilitiesPlatform";
 import AllianceAndCollaborators from "./components/Alliance&Collaborators";
 import Wallet from "./components/Wallet";
+import About from "./components/About";
+import News from "./components/News";
 // import ToTop from "./components/PageComponents/ToTop";
 
 
@@ -30,10 +32,10 @@ export default function Home() {
       <Tokenomics />
       <UtilitiesPlatform />
       <Wallet />
-      <CtaSection/>
+      <About/>
       {/* <ToTop /> */}
       <Blogs />
-      <Partners />
+      <News />
       <ContactUs />
       <Footer />
       

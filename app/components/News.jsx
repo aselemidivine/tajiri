@@ -33,7 +33,7 @@ import tvc from "../assets/images/pngs/tvc.png";
 import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
 
-const Partners = () => {
+const News = () => {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
@@ -94,4 +94,4 @@ const Partners = () => {
   );
 };
 
-export default Partners;
+export default News;

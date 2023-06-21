@@ -27,7 +27,7 @@ const EcoSystem = () => {
 
           <div className="grid gap-6 lg:grid-cols-3">
             <div
-              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/25"
+              className="zoom relative overflow-hidden moving-div rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/25"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -40,7 +40,7 @@ const EcoSystem = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h5 className="mb-3 text-lg font-bold">AfriPayX</h5>
-                      <p className="mb-8">
+                      <p className=" p-tag mb-8">
                         Blockchain Ready Financial Backbone System
                       </p>
                       <a
@@ -60,7 +60,7 @@ const EcoSystem = () => {
             </div>
 
             <div
-              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              className="zoom relative overflow-hidden  rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -75,7 +75,7 @@ const EcoSystem = () => {
                       <h2 className="mb-3 text-lg font-bold">
                         Tajify - Tajiri Nation
                       </h2>
-                      <p className="mb-8">Creative Economy Portal – Optimized for Africa</p>
+                      <p className=" p-tag mb-8">Creative Economy Portal – Optimized for Africa</p>
                       <a
                         className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#116524] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"
@@ -93,7 +93,7 @@ const EcoSystem = () => {
             </div>
 
             <div
-              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              className="zoom relative overflow-hidden moving-div rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -106,7 +106,7 @@ const EcoSystem = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h2 className="mb-3 text-lg font-bold">BossKard</h2>
-                      <p className="mb-8 font-light">Connecting Entrepreneurs and SMEs across Africa</p>
+                      <p className=" p-tag mb-8 font-light">Connecting Entrepreneurs and SMEs across Africa</p>
                       <a
                         className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#116524] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"

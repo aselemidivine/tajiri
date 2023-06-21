@@ -33,7 +33,7 @@ const Blogs = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h5 className="mb-3 text-lg font-bold">I miss the sun</h5>
-                      <p>
+                      <p className="p-tag">
                         <small>
                           Published <u>13.01.2022</u> by Anna Maria Doe
                         </small>
@@ -61,7 +61,7 @@ const Blogs = () => {
                       <h5 className="mb-3 text-lg font-bold">
                         Adventure in the desert
                       </h5>
-                      <p>
+                      <p className="p-tag">
                         <small>
                           Published <u>12.01.2022</u> by Mark Equel
                         </small>
@@ -89,7 +89,7 @@ const Blogs = () => {
                       <h5 className="mb-3 text-lg font-bold">
                         Lonely mountain
                       </h5>
-                      <p>
+                      <p className="p-tag">
                         <small>
                           Published <u>10.01.2022</u> by Bilbo baggins
                         </small>
