@@ -18,7 +18,7 @@ const EcoSystem = () => {
             <span className="text-[#3b3663]">The Ecosystem</span>
           </h3>
           <div className="project-goals">
-        <p className="p-tag font-light">
+        <p className="font-light">
         The Ecosystem is built on four major cornerstone – Tajiri is Built for Impact. Driven by Technology. Built by Africa for African.
         </p>
       </div>
