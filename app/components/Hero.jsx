@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 flex items-center lg:pt-20">
             <Fade left delay={300} duration={1500}>
               <div className="mt-12 lg:mt-0 max-md:mt-20">
-                <h1 className="text-4xl md:text-3xl xl:text-5xl font-bold tracking-tight mb-6 text-white">
+                <h1 className="text-4xl md:text-3xl xl:text-5xl font-bold tracking-tight mb-6 text-[#D87E2A]">
                   Africa #1 Open Economy <br />
                   <span className=" inline-text-color">Ecosystem </span>
                 </h1>
@@ -51,37 +51,38 @@ const Hero = () => {
                     className="absolute w-296px moving-div top-0 left-0"
                     alt="Sample image"
                   />
-                </Fade>
-                <Fade left delay={300} duration={1500}>
-                  <Image
-                    src={taj3}
-                    className="absolute w-296px moving-div top-0 right-0 "
-                    alt="Sample image"
-                  />
                 </Fade> */}
                 <Fade left delay={300} duration={1500}>
                   <Image
-                    src={tajToken}
-                    className="className=w-300px h-276px absolute moving-div left-34 bottom-50 "
-                    
+                    src={taj3}
+                    className="absolute w-296px moving-div top-0 right-[61px] bottom-[-98px]"
                     alt="Sample image"
                   />
                 </Fade>
+                <div className="relative mt-12 lg:mt-0 max-md:mt-20 flex justify-center items-center">
+                <Fade left delay={300} duration={1500}>
 
-                {/* <Fade left delay={300} duration={1500}>
+                  <Image
+                    src={tajToken}
+                    className="w-[435px] h-[376px] moving-div"        
+                    alt="Sample image"
+                    />
+                </Fade>
+                </div>
+                <Fade left delay={300} duration={1500}>
                   <Image
                     src={taj6}
-                    className="absolute w-296px moving-div bottom-0 left-0"
+                    className="absolute w-296px moving-div bottom-[-98px] left-0"
                     alt="Sample image"
                   />
                 </Fade>
                 <Fade left delay={300} duration={1500}>
                   <Image
                     src={taj4}
-                    className="absolute w-296px moving-div bottom-0 right-0"
+                    className="absolute w-296px moving-div bottom-[-98px] right-[61px]"
                     alt="Sample image"
                   />
-                </Fade> */}
+                </Fade>
               </div>
             </Fade>
             {/* <Fade left delay={300} duration={1500}>

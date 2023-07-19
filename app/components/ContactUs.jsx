@@ -116,7 +116,7 @@ const Forms = () => {
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input
                 type="text"
-                class="peer block min-h-[auto] w-full rounded border-0  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
+                class="peer block min-h-[auto] w-full rounded border-2 border-green-200  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
                 id="exampleInput90"
                 placeholder="Name"
               />
@@ -131,7 +131,7 @@ const Forms = () => {
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input
                 type="text"
-                class="peer block min-h-[auto] w-full rounded border-0  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
+                class="peer block min-h-[auto] w-full rounded border-2 border-green-200  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
                 id="exampleInput90"
                 placeholder="Phone Number"
               />
@@ -145,7 +145,7 @@ const Forms = () => {
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input
                 type="email"
-                class="peer block min-h-[auto] w-full rounded border-0  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none   [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
+                class="peer block min-h-[auto] w-full rounded border-2 border-green-200  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none   [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
                 id="exampleInput91"
                 placeholder="Email address"
               />
@@ -159,7 +159,7 @@ const Forms = () => {
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input
                 type="text"
-                class="peer block min-h-[auto] w-full rounded border-0  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none   [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
+                class="peer block min-h-[auto] w-full rounded border-2 border-green-200  py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none   [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
                 id="exampleInput91"
                 placeholder="Address"
               />
@@ -178,7 +178,7 @@ const Forms = () => {
                 placeholder="Your message"
               ></textarea> */}
               <textarea
-                class="peer block min-h-[auto] w-full rounded border-0 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
+                class="peer block min-h-[auto] w-full rounded border-2 border-green-200 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0 bg-green-50"
                 id="exampleFormControlTextarea1"
                 rows="3"
                 placeholder="Your message"

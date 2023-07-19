@@ -6,9 +6,6 @@ const About = () => {
   return (
     <section className="bg-white py-10">
       <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <Fade left duration={1500} delay={100}>
-          <YoutubeEmbed embedId="MLWxgIuciGI" />
-        </Fade>
         <Fade right duration={1500} delay={300}>
           <div className="mt-4 md:mt-0">
             <h3 className="text-center text-3xl font-semibold mb-5">
@@ -53,6 +50,9 @@ const About = () => {
               </p>
             </div>
           </div>
+        </Fade>
+        <Fade left duration={1500} delay={100}>
+          <YoutubeEmbed embedId="MLWxgIuciGI" />
         </Fade>
       </div>
     </section>

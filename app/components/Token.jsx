@@ -30,25 +30,26 @@ const Token = () => {
               </span>
             </h3>
             <div className="space-y-4">
-              <p className="text-sm text-[#3b3663]">
+              {/* <p className="text-sm text-[#3b3663] "> */}
+              <p className="mb-6  md:text-lg text-[#3b3663] ">
                 <strong>TAJIRI Token (TAJI)</strong> is a Utility Token designed
                 to become the primary means for exchange of values, goods and
                 services as well as token for transaction payment fee in the
                 Tajiri Ecosystem.
               </p>
               <ul className="list-disc pl-6">
-                <li className="text-sm text-[#3b3663]">
+                <li className="mb-6  md:text-base text-[#3b3663]">
                   <strong>TOKEN NAME: </strong> TAJIRI | SYMBOL: TAJI | DECIMAL
                   PLACE: 8
                 </li>
-                <li className="text-sm text-[#3b3663]">
+                <li className="mb-6  md:text-base text-[#3b3663]">
                   <strong>TOKEN STANDARD: </strong>BEP20
                 </li>
-                <li className="text-sm text-[#3b3663]">
-                  <strong>CONTRACT ADDRESS: </strong>{" "}
-                  0XF1B6059DBC8B44CA90C5D2BE77E0CBEA3B1965FE
+                <li className="mb-6 md:text-base text-[#3b3663]">
+                  <strong>CONTRACT ADDRESS: </strong>{" "}<span className="text-[#008989]">0XF1B6059DBC8B44CA90C5D2BE77E0CBEA3B1965FE</span>
+                  
                 </li>
-                <li className="text-sm text-[#3b3663]">
+                <li className="mb-6  md:text-base text-[#3b3663]">
                   <strong>REFLECTIVE PROTOCOL: </strong>1%
                 </li>
               </ul>

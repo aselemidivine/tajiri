@@ -17,7 +17,7 @@ const ExploreSection = () => {
         <span className=" text-[#3b3663]">Project Goals</span>
       </h3>
       <div className="project-goals">
-        <p className="">
+        <p className="md:text-base text-[#3b3663]">
           TAJIRI is built to accelerate the actualization of four of the SDGs
           2030 in Africa.
         </p>
