@@ -45,7 +45,7 @@ const Hero = () => {
             <Fade left delay={300} duration={1500}>
              
               <div className="relative mt-12 lg:mt-0 max-md:mt-20">
-                <Fade left delay={300} duration={1500}>
+                {/* <Fade left delay={300} duration={1500}>
                   <Image
                     src={taj2}
                     className="absolute w-296px moving-div top-0 left-0"
@@ -58,7 +58,7 @@ const Hero = () => {
                     className="absolute w-296px moving-div top-0 right-0 "
                     alt="Sample image"
                   />
-                </Fade>
+                </Fade> */}
                 <Fade left delay={300} duration={1500}>
                   <Image
                     src={tajToken}
@@ -68,7 +68,7 @@ const Hero = () => {
                   />
                 </Fade>
 
-                <Fade left delay={300} duration={1500}>
+                {/* <Fade left delay={300} duration={1500}>
                   <Image
                     src={taj6}
                     className="absolute w-296px moving-div bottom-0 left-0"
@@ -81,7 +81,7 @@ const Hero = () => {
                     className="absolute w-296px moving-div bottom-0 right-0"
                     alt="Sample image"
                   />
-                </Fade>
+                </Fade> */}
               </div>
             </Fade>
             {/* <Fade left delay={300} duration={1500}>
