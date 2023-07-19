@@ -16,6 +16,8 @@ import AllianceAndCollaborators from "./components/Alliance&Collaborators";
 import Wallet from "./components/Wallet";
 import About from "./components/About";
 import News from "./components/News";
+import CtaSection from "./components/CtaSection";
+import Token from "./components/Token";
 // import ToTop from "./components/PageComponents/ToTop";
 
 
@@ -29,12 +31,14 @@ export default function Home() {
       <ExploreSection />
       <EcoSystem />
       <AllianceAndCollaborators />
+      <Token />
       <Tokenomics />
       <UtilitiesPlatform />
       <Wallet />
       <About/>
       {/* <ToTop /> */}
       <Blogs />
+      <CtaSection />
       <News />
       <ContactUs />
       <Footer />
