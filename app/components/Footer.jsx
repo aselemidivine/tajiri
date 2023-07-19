@@ -20,7 +20,8 @@ const Footer = () => {
                 <Image
                   src={Logo}
                   alt="logo"
-                  class="ml-8 mr-3 w-[100px] h-[50px] object-contain drop-shadow-md"
+                  class="ml-8 mr-3 mb-10 w-[200px] h-[50px] object-contain drop-shadow-md"
+                  // class="max-w-full"
                 />
               </a>
               <p class=" p-tag text-body-color font-light mb-7 text-base">
@@ -28,7 +29,7 @@ const Footer = () => {
                 Driving Financial & Digital Inclusion, Wealth Creation and
                 Industrial Revolution.
               </p>
-              <p class=" p-tag text-dark flex items-center text-sm font-medium">
+              {/* <p class=" p-tag text-dark flex items-center text-sm font-medium">
                 <span class=" p-tag text-primary mr-3">
                   <svg
                     width="19"
@@ -42,7 +43,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <span className="p-tag">+012 (345) 678 99</span>
-              </p>
+              </p> */}
             </div>
           </div>
           <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
@@ -69,7 +70,7 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    About TailGrids
+                    Tajiri Africa Forum
                   </a>
                 </li>
                 <li>
@@ -77,23 +78,8 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    Contact & Support
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:text-primary mb-2  text-base leading-loose"
-                  >
-                    Success History
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-body-color hover:text-primary mb-2  text-base leading-loose"
-                  >
-                    Setting & Privacy
+                    Tajiri global community
+
                   </a>
                 </li>
               </ul>
@@ -108,7 +94,7 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    Premium Support
+Tajiri Bounty (QTAJ)
                   </a>
                 </li>
                 <li>
@@ -116,7 +102,8 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    Our Services
+                    Tajiri Airdrop
+
                   </a>
                 </li>
                 <li>
@@ -124,7 +111,8 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    Know Our Team
+                   Partnership request
+
                   </a>
                 </li>
                 <li>
@@ -132,7 +120,8 @@ const Footer = () => {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2  text-base leading-loose"
                   >
-                    Download App
+                   Token Locked
+
                   </a>
                 </li>
               </ul>
