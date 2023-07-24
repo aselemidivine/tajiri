@@ -102,7 +102,6 @@ const Forms = () => {
       <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <Fade right duration={1500} delay={300}>
         <div className="mt-4 md:mt-0">
-
            <Image src={contactUs} className="w-full moving-div" alt="Sample image" />
          </div>
         </Fade>
