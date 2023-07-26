@@ -31,7 +31,7 @@ const AllianceAndCollaborators = () => {
   return (
     <div>
 
-        <section className="mb-32">
+        <section className="bg-green-50 mb-32">
 
       <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">

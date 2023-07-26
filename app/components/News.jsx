@@ -90,7 +90,7 @@ import Fade from "react-reveal/Fade";
 
 const Partners = () => {
   return (
-    <div className=" bg-blue-50 py-5">
+    <div className=" bg-green-50 py-5">
       <Container maxW={"7xl"}>
         <section className="mb-32 ">
           <div className="container my-24 mx-auto">

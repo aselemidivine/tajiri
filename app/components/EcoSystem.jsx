@@ -6,13 +6,14 @@ import Image from "next/image";
 import firstImage from "../assets/images/img_one.jpg";
 import SecondImage from "../assets/images/img__two.jpg";
 import ThirdImage from "../assets/images/img__three.jpg";
+import AoeImage from "../assets/images/aoe-img.jpg";
 
 const EcoSystem = () => {
   return (
   
 
     <Container maxW={"7xl"}>
-      <div className="container my-24 mx-auto md:px-6">
+      <div className=" container my-24 mx-auto md:px-6">
         <section className="mb-32">
           <h3 className="text-center text-3xl font-semibold mb-5">
             <span className="text-[#3b3663]">The Ecosystem</span>
@@ -128,7 +129,7 @@ const EcoSystem = () => {
               data-te-ripple-color="light"
             >
               <Image
-                src={ThirdImage}
+                src={AoeImage}
                 className="w-full align-middle transition duration-300 ease-linear"
               />
               <a href="https://www.youtube.com/watch?v=VyAhBO0KdCY">
@@ -136,7 +137,7 @@ const EcoSystem = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h2 className="mb-3 text-lg font-bold">Aoe Market</h2>
-                      <p className=" p-tag mb-8 font-light">Connecting Entrepreneurs and SMEs across Africa</p>
+                      <p className=" p-tag mb-8 font-light">Connects buyers and sellers from different regions of Africa.</p>
                       <a
                         className="inline-blockk px-7 py-3 mt-5 mr-2 bg-[#116524] text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                         data-mdb-ripple="true"

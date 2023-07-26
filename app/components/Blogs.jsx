@@ -2,20 +2,19 @@
 import React from "react";
 import { Container } from "@chakra-ui/react";
 
-
 const Blogs = () => {
   return (
-    <Container maxW={"7xl"}>
-      <div className="container my-24 mx-auto md:px-6">
-        <section className="mb-32">
+    <section className=" bg-green-50 p-3 mb-12">
+      <Container maxW={"7xl"}>
+        <div className="container  my-24 mx-auto md:px-6">
           {/* <style>
         .zoom:hover img {
           transform: scale(1.1);
         }
       </style> */}
-      <h3 className="text-center text-3xl font-semibold mb-5">
-        <span className=" text-[#3b3663]">Latest News</span>
-      </h3>
+          <h3 className="text-center text-3xl font-semibold mb-5">
+            <span className=" text-[#3b3663]">Latest News</span>
+          </h3>
           {/* <h2 className="mb-12 text-center text-3xl font-bold">Latest News</h2> */}
 
           <div className="grid gap-6 lg:grid-cols-3">
@@ -32,7 +31,9 @@ const Blogs = () => {
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
-                      <h5 className="mb-3 text-lg font-bold">I miss the sun</h5>
+                      <h5 className="mb-3 text-lg font-bold">
+                        How to Increase Your ROI Through scientific SEM?
+                      </h5>
                       <p className="p-tag">
                         <small>
                           Published <u>13.01.2022</u> by Anna Maria Doe
@@ -59,7 +60,7 @@ const Blogs = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h5 className="mb-3 text-lg font-bold">
-                        Adventure in the desert
+                        Simple Ways To Optimize Your Website For SEO
                       </h5>
                       <p className="p-tag">
                         <small>
@@ -87,7 +88,7 @@ const Blogs = () => {
                   <div className="flex h-full items-end justify-start">
                     <div className="m-6 text-white">
                       <h5 className="mb-3 text-lg font-bold">
-                        Lonely mountain
+                        The Basics of Blogging Search Optimization
                       </h5>
                       <p className="p-tag">
                         <small>
@@ -101,10 +102,10 @@ const Blogs = () => {
               </a>
             </div>
           </div>
-        </section>
-      </div>
-      {/* </Fade> */}
-    </Container>
+        </div>
+        {/* </Fade> */}
+      </Container>
+    </section>
   );
 };
 

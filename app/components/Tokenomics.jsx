@@ -11,8 +11,9 @@ import ExploreCard from "./cards/ExploreCard";
 
 const Tokenomics = () => {
   return (
+        <section className="mb-32 p-8 bg-green-50">
     <Container maxW={"7xl"}>
-        <section className="mb-32">
+        {/* <section className="mb-32"> */}
 
         {/* <h3 className="text-center text-3xl font-semibold mb-5">
         <span className="text-primary">TOKENOMICS</span>
@@ -46,8 +47,9 @@ const Tokenomics = () => {
         </div>
       </Fade>
     </div>
-    </section>
+    {/* </section> */}
     </Container>
+    </section>
   )
 }
 
