@@ -6,7 +6,7 @@ import tajToken from "../assets/taj-token.png";
 import Fade from "react-reveal/Fade";
 const Token = () => {
   return (
-    <section className=" ">
+    <section id="token" className=" ">
       <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <Fade left duration={1500} delay={100}>
           <div className="relative">

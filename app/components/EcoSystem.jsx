@@ -12,8 +12,8 @@ const EcoSystem = () => {
   return (
   
 
-    <Container maxW={"7xl"}>
-      <div className=" container my-24 mx-auto md:px-6">
+    <Container id="ecosystem" maxW={"7xl"}>
+      <div  className=" container my-24 mx-auto md:px-6">
         <section className="mb-32">
           <h3 className="text-center text-3xl font-semibold mb-5">
             <span className="text-[#3b3663]">The Ecosystem</span>

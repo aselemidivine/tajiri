@@ -1,6 +1,4 @@
 "use client";
-// import { Container } from "@chakra-ui/react";
-// import Video from "../../public/video/crypto_video_background.mp4";
 import Fade from "react-reveal/Fade";
 import taj2 from "../assets/taj-2.png";
 import taj3 from "../assets/taj-3.png";
@@ -52,6 +50,7 @@ const Hero = () => {
                     alt="Sample image"
                   />
                 </Fade> */}
+                 <div className="hidden md:block"> 
                 <Fade left delay={300} duration={1500}>
                   <Image
                     src={taj3}
@@ -83,6 +82,7 @@ const Hero = () => {
                     alt="Sample image"
                   />
                 </Fade>
+              </div>
               </div>
             </Fade>
             {/* <Fade left delay={300} duration={1500}>

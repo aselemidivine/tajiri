@@ -4,7 +4,7 @@ import { Container } from "@chakra-ui/react";
 
 const Blogs = () => {
   return (
-    <section className=" bg-green-50 p-3 mb-12">
+    <section id="blogs" className=" bg-green-50 p-3 mb-12">
       <Container maxW={"7xl"}>
         <div className="container  my-24 mx-auto md:px-6">
           {/* <style>

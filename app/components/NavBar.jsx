@@ -9,6 +9,14 @@ const NavBar = () => {
   const [mobileNav, setMobileNav] = useState(false);
   const [fix, setFix] = useState(false);
 
+   // Function to handle smooth scroll
+   const handleSmoothScroll = (targetId) => {
+    const targetSection = document.querySelector(targetId);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   function setFixed() {
     //console.log(window.scrollY)
     if (
@@ -89,7 +97,7 @@ const NavBar = () => {
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
               <li>
                 <a
-                  href="#"
+                  href="#home"
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
@@ -102,11 +110,11 @@ const NavBar = () => {
 
               <li>
                 <a
-                  href="https://test.digitaladplanet.com/dashboard/login"
+                  onClick={() => handleSmoothScroll('#about')}                 
                   className={
                     fix || mobileNav
-                      ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      ? "block py-2 pl-3 pr-4 text-gray-900 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   About Us
@@ -115,11 +123,11 @@ const NavBar = () => {
               
               <li>
                 <a
-                  href="https://test.digitaladplanet.com/dashboard/login"
+                  onClick={() => handleSmoothScroll('#ecosystem')}
                   className={
                     fix || mobileNav
-                      ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      ? "block py-2 pl-3 pr-4 text-gray-900 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   The Ecosystem
@@ -128,11 +136,11 @@ const NavBar = () => {
 
               <li>
                 <a
-                  href="/adboards"
+                  onClick={() => handleSmoothScroll('#token')}
                   className={
                     fix || mobileNav
-                      ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      ? "block py-2 pl-3 pr-4 text-gray-900 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Token & Utilities
@@ -154,11 +162,12 @@ const NavBar = () => {
 
               <li>
                 <a
-                  href="/adboards"
+                  // href="#"
+                  onClick={() => handleSmoothScroll('#blogs')}
                   className={
                     fix || mobileNav
-                      ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      ? "block py-2 pl-3 pr-4 text-gray-900 cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white cursor-pointer rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Blog & News
